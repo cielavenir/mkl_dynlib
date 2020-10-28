@@ -5,6 +5,9 @@ export LD_LIBRARY_PATH=".:/opt/intel/mkl/lib/intel64_lin"
 ./main_basic_local lib.so
 echo "--------------------------------"
 
+./main_basic_local lib2.so
+echo "--------------------------------"
+
 ./main_basic_global lib.so
 echo "--------------------------------"
 
